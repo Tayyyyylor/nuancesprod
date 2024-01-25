@@ -1,4 +1,4 @@
-import HomepageTemplate from '@/components/templates/Homepage/Homepage'
+import HomepageTemplate from "@/components/templates/homepage/Homepage"
 
 const Homepage = () => <HomepageTemplate />
 
