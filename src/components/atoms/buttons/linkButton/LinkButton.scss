@@ -11,4 +11,11 @@
   font-size: 18px;
   letter-spacing: 2px;
   cursor: pointer;
+ transition: 'height 2s ease-in-out', 
+
+}
+
+.linkButton:hover {
+ height: 400px;
+ transition: 'height 2s ease-in-out', 
 }
