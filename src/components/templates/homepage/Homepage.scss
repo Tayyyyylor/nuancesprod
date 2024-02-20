@@ -1,3 +1,4 @@
+@use "../../../styles/variables" as *;
 .homepage {
   display: flex;
   flex-direction: column;
@@ -12,6 +13,10 @@
     padding: 1rem;
     width: 90%;
     align-items: center;
+    
+    @media screen and (min-width: $lg) {
+        width: 48%;      
+    }
   }
 
   &__contact {
