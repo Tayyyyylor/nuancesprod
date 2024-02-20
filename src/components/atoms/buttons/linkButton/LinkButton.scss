@@ -1,0 +1,21 @@
+.linkButton {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: white;
+  width: 100%;
+  text-transform: uppercase;
+  font-family: gothamBook;
+  font-size: 18px;
+  letter-spacing: 2px;
+  cursor: pointer;
+ transition: 'height 2s ease-in-out', 
+
+}
+
+.linkButton:hover {
+ height: 400px;
+ transition: 'height 2s ease-in-out', 
+}

@@ -1,0 +1,9 @@
+.sliderPartner {
+  &__img_container {
+    display: flex;
+    gap: 2rem;
+  }
+  &__img {
+    margin-right: 20px;
+  }
+}

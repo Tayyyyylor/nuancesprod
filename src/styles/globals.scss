@@ -1,0 +1,29 @@
+@use '../components/atoms/logo/Logo.scss' as *;
+@use '../components/atoms/buttons/linkButton/LinkButton.scss' as *;
+@use '../components/molecules/navbar/Navbar.scss' as *;
+@use '../components/molecules/contact/Contact.scss' as *;
+@use '../components/molecules/sliderPartner/SliderPartner.scss' as *;
+@use '../components/layouts/header/Header.scss' as *;
+@use '../components/layouts/footer/Footer.scss' as *;
+@use '../components/templates/homepage/Homepage.scss' as *;
+@use './variables' as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: fontBold;
+  src: url('../fonts/GillSansStd-Bold.otf');
+}
+
+@font-face {
+  font-family: gothamBook;
+  src: url('../fonts/Gotham-Book.otf');
+}
